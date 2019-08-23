@@ -1,11 +1,33 @@
 import React from 'react';
-import './header.css';
+import styled, { ThemeProvider } from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { theme } from '../../themeStyle';
 
-function App() {
+const Header = styled.header`
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  background-color: ${props => props.theme.brand.main};
+`;
+
+const EnvelopeContainer = styled.div`
+  margin-left: auto;
+  margin-right: 10px;
+  cursor: pointer;
+`;
+
+function HeaderComponent({ onClickIcon }) {
   return (
-    <header>
-    </header>
+    <ThemeProvider theme={theme}>
+      <Header>
+        <EnvelopeContainer onClick={onClickIcon}>
+          <FontAwesomeIcon icon={faEnvelope} size="lg" style={{ color:"#FFF" }} />
+        </EnvelopeContainer>
+      </Header>
+    </ThemeProvider>
   );
 }
 
-export default App;
+export default HeaderComponent;
