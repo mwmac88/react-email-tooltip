@@ -14,7 +14,7 @@ const Header = styled.header`
 
 const EnvelopeContainer = styled.div`
   margin-left: auto;
-  margin-right: 10px;
+  margin-right: 20px;
   cursor: pointer;
 `;
 

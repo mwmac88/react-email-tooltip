@@ -4,20 +4,18 @@ import Header from '../header';
 import EmailSubscribe from '../email-subscribe';
 
 function App() {
-  let [isTooltipActive, handleTooltipVisibility] = useState(false);
+  let [isTooltipActive, setTooltipVisibility] = useState(false);
 
-  function toggleTooltip () {
-    handleTooltipVisibility(isTooltipActive = !isTooltipActive);
+  function toggleTooltip() {
+    setTooltipVisibility(isTooltipActive = !isTooltipActive);
   }
-
-  const renderEmailSubscribe = isTooltipActive ?  <EmailSubscribe /> : 'NOTHING TO SEE HERE';
 
   return (
     <div>
       <GlobalStyle />
       <Header onClickIcon={toggleTooltip}>
       </Header>
-      { renderEmailSubscribe }
+      <EmailSubscribe toggleTooltip={toggleTooltip} visible={isTooltipActive} />
     </div>
   );
 }
