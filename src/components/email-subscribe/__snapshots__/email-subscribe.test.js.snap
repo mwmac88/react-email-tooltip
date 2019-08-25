@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailSubscribe Component renders without crashing 1`] = `
+<styled.div
+  visible={false}
+>
+  <styled.div>
+    <styled.h4>
+      Join the smart people who save money on holidays.
+    </styled.h4>
+  </styled.div>
+  <styled.div />
+  <styled.div>
+    <styled.form
+      onSubmit={[Function]}
+    >
+      <EmailInput
+        emailFormValue=""
+        onEmailChange={[Function]}
+      />
+      <EmailMarketingConsent />
+      <EmailSubscribeButton
+        btnText="I'm In!"
+      />
+    </styled.form>
+  </styled.div>
+</styled.div>
+`;
