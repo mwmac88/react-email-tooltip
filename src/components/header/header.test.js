@@ -1,9 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { shallow } from 'enzyme';
 import Header from './index';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Header />, div);
-  ReactDOM.unmountComponentAtNode(div);
+describe('App Component', () => {
+  let wrapper;
+
+  beforeEach(() => {
+    wrapper = shallow(<Header />);
+  });
+
+  it('renders without crashing', () => {
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('successfully renders 1 child component', () => {
+    expect(wrapper.children()).toHaveLength(1);
+  });
 });

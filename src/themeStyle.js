@@ -1,6 +1,7 @@
 const theme = {
   brand: {
-    main: '#E3004A'
+    main: '#E3004A', // RED
+    secondary: '#4A90E2', // BLUE
   },
   breakpoints: {
     tablet: '768px',

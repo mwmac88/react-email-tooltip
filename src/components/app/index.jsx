@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <GlobalStyle />
-      <Header onClickIcon={toggleTooltip}>
+      <Header onClickIcon={toggleTooltip} notificationCount="1">
       </Header>
       <EmailSubscribe toggleTooltip={toggleTooltip} visible={isTooltipActive} />
     </div>

@@ -1,8 +1,18 @@
-# React App Template
+# React Email Tooltip
 
-Basic boilerplate & scaffold to be extended for new React app initialisation
+Basic header component with email tooltip popout
 
 Built utilising [https://github.com/facebook/create-react-app](create-react-app)
+
+### Packages Utilisied
+
+[styled-components](https://www.styled-components.com/) - Styling components with theming, globals & props
+
+[font-awesome](https://github.com/FortAwesome/Font-Awesome) - Icons (Envelope)
+
+[enzyme](https://airbnb.io/enzyme/) - JS testing utility
+
+[eslint](https://eslint.org/) & [prettier](https://github.com/prettier/prettier) - JS linting & code formatting/standards
 
 ## Get going
 
