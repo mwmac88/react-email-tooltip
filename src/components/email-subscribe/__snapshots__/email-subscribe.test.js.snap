@@ -1,5 +1,547 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`EmailSubscribe Component Show EmailSubscribe component displays the component successfully 1`] = `
+.c6 {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  width: calc(100% - 10px);
+  height: 40px;
+  font-family: arial;
+  font-size: 13px;
+  line-height: 15px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  padding: 0 0 0 10px;
+}
+
+.c6::-webkit-input-placeholder {
+  color: #333;
+  font-style: italic;
+}
+
+.c6::-moz-placeholder {
+  color: #333;
+  font-style: italic;
+}
+
+.c6:-ms-input-placeholder {
+  color: #333;
+  font-style: italic;
+}
+
+.c6::placeholder {
+  color: #333;
+  font-style: italic;
+}
+
+.c6::invalid {
+  border: 1px solid red;
+}
+
+.c6::valid {
+  border: 1px solid green;
+}
+
+.c7 {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  margin-top: 6px;
+}
+
+.c8 {
+  font-family: ArialMT;
+  font-size: 10px;
+  line-height: 15px;
+  color: #999;
+  margin-top: 6px;
+}
+
+.c9 {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  margin: 15px 0 0;
+  padding: 0;
+  overflow: visible;
+  text-transform: none;
+  color: #FFF;
+  background-color: #FFA004;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.c0 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 350px;
+}
+
+.c0:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: #1C92E4;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  max-width: 300px;
+  font-family: ArialMT;
+  font-size: 22px;
+  font-weight: 400;
+  color: #FFF;
+  text-align: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 95px;
+  background: linear-gradient(360deg,#5BBDE4 0%,#1C92E4 100%) no-repeat;
+}
+
+.c3 {
+  height: 22px;
+  background: linear-gradient(180deg,#1E507D 0%,#62CDD4 100%) no-repeat;
+}
+
+.c4 {
+  padding: 30px 15px;
+  background: linear-gradient(180deg,#EDDDCE 0%,#F4ECE2 100%) no-repeat;
+}
+
+@media (min-width:768px) {
+  .c6 {
+    -webkit-flex: 0 1 50%;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+}
+
+@media (min-width:768px) {
+  .c9 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 200px;
+    margin: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c0:after {
+    right: 5px;
+    top: -10px;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 549px;
+    margin: 0 13px 0 auto;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    max-width: none;
+    padding: 0 22px;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    padding: 30px 45px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <h4
+      className="c2"
+    >
+      Join the smart people who save money on holidays.
+    </h4>
+  </div>
+  <div
+    className="c3"
+  />
+  <div
+    className="c4"
+  >
+    <form
+      className="c5"
+      onSubmit={[Function]}
+    >
+      <input
+        className="c6"
+        onChange={[Function]}
+        placeholder="Enter email"
+        required={true}
+        type="email"
+        value=""
+      />
+      <div
+        className="c7"
+      >
+        <label
+          className="c8"
+          htmlFor="marketing-confirm"
+        >
+          Icelolly Marketing Limited, wish to send you marketing emails. If you consent, please tick to confirm:
+        </label>
+        <input
+          id="marketing-confirm"
+          type="checkbox"
+        />
+      </div>
+      <button
+        className="c9"
+      >
+        I'm In!
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`EmailSubscribe Component does not display on initial load 1`] = `
+.c6 {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  width: calc(100% - 10px);
+  height: 40px;
+  font-family: arial;
+  font-size: 13px;
+  line-height: 15px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  padding: 0 0 0 10px;
+}
+
+.c6::-webkit-input-placeholder {
+  color: #333;
+  font-style: italic;
+}
+
+.c6::-moz-placeholder {
+  color: #333;
+  font-style: italic;
+}
+
+.c6:-ms-input-placeholder {
+  color: #333;
+  font-style: italic;
+}
+
+.c6::placeholder {
+  color: #333;
+  font-style: italic;
+}
+
+.c6::invalid {
+  border: 1px solid red;
+}
+
+.c6::valid {
+  border: 1px solid green;
+}
+
+.c7 {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  margin-top: 6px;
+}
+
+.c8 {
+  font-family: ArialMT;
+  font-size: 10px;
+  line-height: 15px;
+  color: #999;
+  margin-top: 6px;
+}
+
+.c9 {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  margin: 15px 0 0;
+  padding: 0;
+  overflow: visible;
+  text-transform: none;
+  color: #FFF;
+  background-color: #FFA004;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.c0 {
+  position: relative;
+  display: none;
+  width: 100%;
+  height: 350px;
+}
+
+.c0:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: #1C92E4;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  max-width: 300px;
+  font-family: ArialMT;
+  font-size: 22px;
+  font-weight: 400;
+  color: #FFF;
+  text-align: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 95px;
+  background: linear-gradient(360deg,#5BBDE4 0%,#1C92E4 100%) no-repeat;
+}
+
+.c3 {
+  height: 22px;
+  background: linear-gradient(180deg,#1E507D 0%,#62CDD4 100%) no-repeat;
+}
+
+.c4 {
+  padding: 30px 15px;
+  background: linear-gradient(180deg,#EDDDCE 0%,#F4ECE2 100%) no-repeat;
+}
+
+@media (min-width:768px) {
+  .c6 {
+    -webkit-flex: 0 1 50%;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+}
+
+@media (min-width:768px) {
+  .c9 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 200px;
+    margin: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c0:after {
+    right: 5px;
+    top: -10px;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 549px;
+    margin: 0 13px 0 auto;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    max-width: none;
+    padding: 0 22px;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    padding: 30px 45px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <h4
+      className="c2"
+    >
+      Join the smart people who save money on holidays.
+    </h4>
+  </div>
+  <div
+    className="c3"
+  />
+  <div
+    className="c4"
+  >
+    <form
+      className="c5"
+      onSubmit={[Function]}
+    >
+      <input
+        className="c6"
+        onChange={[Function]}
+        placeholder="Enter email"
+        required={true}
+        type="email"
+        value=""
+      />
+      <div
+        className="c7"
+      >
+        <label
+          className="c8"
+          htmlFor="marketing-confirm"
+        >
+          Icelolly Marketing Limited, wish to send you marketing emails. If you consent, please tick to confirm:
+        </label>
+        <input
+          id="marketing-confirm"
+          type="checkbox"
+        />
+      </div>
+      <button
+        className="c9"
+      >
+        I'm In!
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
 exports[`EmailSubscribe Component renders without crashing 1`] = `
 <styled.div
   visible={false}
